@@ -83,6 +83,7 @@ hero{
     }
    max-width: 30vw;
     padding: 2rem;
+    height: 100%;
     
     background-color: white;
     padding: 0;
@@ -114,8 +115,7 @@ hero{
  }
  .Cta{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    
     gap: 20px;
 
     a{
@@ -125,11 +125,16 @@ hero{
         background-color: #8565d6;
         padding: 1rem;
         width: 100%;
+        text-align: center;
+
+         
     }
     .Vitfärg{
         background-color: white;
         padding: 1rem;
         width: 100%;
+        text-align: center;
+        
     }
  }
     
