@@ -4,6 +4,7 @@ body{
     align-items: center;
     max-width: 100%;
     flex-wrap: wrap;
+    margin: 0;
   
 }
 header{
@@ -83,7 +84,7 @@ hero{
     }
    max-width: 30vw;
     padding: 2rem;
-    height: 100%;
+    
     
     background-color: white;
     padding: 0;
@@ -126,6 +127,9 @@ hero{
         padding: 1rem;
         width: 100%;
         text-align: center;
+        a{
+            color: white;
+        }
 
          
     }
