@@ -59,6 +59,9 @@ hero{
     h1{
         font-size: 3.0rem;
     }
+    p{
+        font-size: 1.6rem;
+    }
    
 }
  h2{
@@ -89,8 +92,45 @@ hero{
     }
     p{
         font-size: 1.6rem;
+        
     }
     
  }
 
- 
+ footer{
+    max-width: 100vw;
+    width: 100%;
+
+    height: 10vh;
+    background-color: #8565d6;
+ }
+
+
+ main{
+    h2{
+        padding-left: 3.6rem;
+    }
+  
+ }
+ .Cta{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+
+    a{
+        color: black;
+    }
+    .LilaFärg{
+        background-color: #8565d6;
+        padding: 1rem;
+        width: 100%;
+    }
+    .Vitfärg{
+        background-color: white;
+        padding: 1rem;
+        width: 100%;
+    }
+ }
+    
+   
